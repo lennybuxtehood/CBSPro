@@ -1,47 +1,47 @@
-console.log("whatever");
-// test
-// test 2.0
+function Login()
+{
 
-console.log("new entry");
+    if(empty($_POST['username']))
+    {
+        $this->HandleError("UserName is empty!");
 
-console.log("Lenni's changes");
+        return false;
+        
+    }
 
-console.log("this is awesome!!!!")
+    if(empty($_POST['password']))
+    {
 
-console.log ("still working??");
+        $this->HandleError("Password is empty!");
 
-console.log
+        return false;
+    }
 
-// wtf
+    $username = trim($_POST['username']);
 
-// Loop through Array of Objects
-var objPeople = [
-	{ // Object @ 0 index
-		username: "sam",
-		password: "codify"
-	},
-	{ // Object @ 1 index
-		username: "matt",
-		password: "academy"
-	},
-	{ // Object @ 2 index
-		username: "chris",
-		password: "forever"
-	}
+    $password = trim($_POST['password']);
 
-]
 
-function getInfo() {
-	var username = document.getElementById('username').value
-	var password = document.getElementById('password').value
+    if(!$this->CheckLoginInDB($username,$password))
+    {
+        return false;
+    }
+    session_start();
+    $_SESSION[$this->GetLoginSessionVar()] = $username;
+    return true;
+}
 
-	for(var i = 0; i < objPeople.length; i++) {
-		// check is user input matches username and password of a current index of the objPeople array
-		if(username == objPeople[i].username && password == objPeople[i].password) {
-			console.log(username + " is logged in!!!")
-			// stop the function if this is found to be true
-			return
-		}
-	}
-	console.log("incorrect username or password")
+function CheckLogin()
+{
+
+     session_start();
+
+     $sessionvar = $this->GetLoginSessionVar();
+
+      
+     if(empty($_SESSION[$sessionvar]))
+     {
+        return false;
+     }
+     return true;
 }
