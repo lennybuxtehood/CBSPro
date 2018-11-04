@@ -1,5 +1,12 @@
 /* Below line is used for online Google font */
 @import url(http://fonts.googleapis.com/css?family=Raleway);
+
+h1
+{
+    color: blue;
+}
+
+
 h2{
 background-color: #FEFFED;
 padding: 30px 35px;
@@ -77,3 +84,4 @@ outline:none;
 input[type=button]:hover{
 background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
 }
+
