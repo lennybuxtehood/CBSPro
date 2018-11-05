@@ -17,7 +17,7 @@ body{
 .heading{
     width:600px;
     height:300px;
-    margin:auto;
+    margin:top;
     position:absolute;
     top:0px; bottom:0px; right:0px; left:0px;
 }
