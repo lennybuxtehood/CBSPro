@@ -4,6 +4,7 @@
 h1
 {
     color: blue;
+    font-family: sans-serif;
 }
 
 
@@ -18,6 +19,7 @@ hr{
 margin: 10px -50px;
 border: 0;
 border-top: 1px solid rgb(255, 255, 255);
+/* Changed colour of login box */
 margin-bottom: 40px;
 }
 div.container{
