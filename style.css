@@ -87,4 +87,10 @@ outline:none;
 input[type=button]:hover{
 background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
 }
-
+h3
+{
+    color: black;
+    font-family: raleway;
+    font-size: 14px;
+    
+}
