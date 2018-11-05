@@ -1,9 +1,13 @@
 /* Below line is used for online Google font */
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 
+body{
+    background-color: #0c0129;
+    background-size: cover;
+}
 h1
 {
-    color: blue;
+    color: #fff;
     font-family: raleway;
     font-size: 24px;
     text-align: center;
@@ -90,7 +94,7 @@ background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
 }
 h3
 {
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: raleway;
     font-size: 16px;
     text-align: center
