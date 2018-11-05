@@ -6,6 +6,7 @@ h1
     color: blue;
     font-family: raleway;
     font-size: 24px;
+    text-align: center;
 }
 
 
@@ -92,5 +93,5 @@ h3
     color: black;
     font-family: raleway;
     font-size: 16px;
-    
+    text-align: center
 }
