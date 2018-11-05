@@ -80,7 +80,7 @@ input[type=button]{
 font-size: 16px;
 background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
 border: 1px solid #e5a900;
-color: rgb(255, 255, 255);
+color: #0c0129;
 font-weight: bold;
 cursor: pointer;
 width: 100%;
@@ -93,7 +93,7 @@ background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
 }
 h3
 {
-    color: rgb(255, 255, 255);
+    color: #0c0129;
     font-family: raleway;
     font-size: 16px;
     text-align: center
