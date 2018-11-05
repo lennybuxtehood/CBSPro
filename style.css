@@ -1,14 +1,27 @@
 /* Below line is used for online Google font */
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 
+body{
+    background-color: #0c0129;
+}
 h1
 {
-    color: blue;
+    color: rgb(255, 255, 255);
+    font-family: raleway;
+    font-size: 24px;
+    text-align: center;
 }
-
-
-h2{
-background-color: #FEFFED;
+h2
+{
+    color: #ffffff;
+    font-family: raleway;
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+}
+h3{
+    color: #ffffff;
+background-color: #0c0129;
 padding: 30px 35px;
 margin: -10px -50px;
 text-align:center;
@@ -17,22 +30,26 @@ border-radius: 10px 10px 0 0;
 hr{
 margin: 10px -50px;
 border: 0;
-border-top: 1px solid #ccc;
+border-top: 1px solid #0c0129;
+/* Changed colour of login box */
 margin-bottom: 40px;
 }
 div.container{
+    margin: middle;
+    position: absolute;
+    top: 100px; bottom:0px; right:0; left: 440px;
+
 width: 900px;
 height: 610px;
-margin:35px auto;
 font-family: 'Raleway', sans-serif;
 }
 div.main{
 width: 300px;
 padding: 10px 50px 25px;
-border: 2px solid gray;
+border: 2px solid #ffffff;
 border-radius: 10px;
 font-family: raleway;
-float:left;
+float: left;
 margin-top:50px;
 }
 input[type=text],input[type=password]{
@@ -41,25 +58,26 @@ height: 40px;
 padding: 5px;
 margin-bottom: 25px;
 margin-top: 5px;
-border: 2px solid #ccc;
-color: #4f4f4f;
+border: 2px solid rgb(255, 255, 255);
+color: #0c0129;
 font-size: 16px;
 border-radius: 5px;
 }
 label{
-color: #464646;
-text-shadow: 0 1px 0 #fff;
-font-size: 14px;
+color: #ffffff;
+font-size: 16px;
 font-weight: bold;
 }
 center{
-font-size:32px;
+
 }
 .note{
-color:red;
+color:rgb(255, 0, 0);
+font-size: 14px;
 }
 .valid{
-color:green;
+color:rgb(51, 255, 0);
+font-size: 14px;
 }
 .back{
 text-decoration: none;
@@ -67,13 +85,17 @@ border: 1px solid rgb(0, 143, 255);
 background-color: rgb(0, 214, 255);
 padding: 3px 20px;
 border-radius: 2px;
-color: black;
+}
+.remember{
+    color: #ffffff;
+    font-size: 12px;
 }
 input[type=button]{
 font-size: 16px;
 background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
 border: 1px solid #e5a900;
-color: #4E4D4B;
+color: #0c0129;
+font-family: raleway;
 font-weight: bold;
 cursor: pointer;
 width: 100%;
@@ -84,4 +106,3 @@ outline:none;
 input[type=button]:hover{
 background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
 }
-

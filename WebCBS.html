@@ -3,7 +3,7 @@
 <title>Javascript Login Form Validation</title>
 <!--example for the opening text-->
 <h1>Welcome to CBS Organisations - an extracurricular offer for all current CBS students</h1>
-<h3>- Please sign up by entering your valid CBS email address, or login to stay updated on social activites offered at CBS</h3>
+<h2>Please login by entering your valid CBS email address to stay updated with social activities offered at CBS</h3>
 <!-- Include CSS File Here -->
 <link rel="stylesheet" href="style.css"/>
 
@@ -13,17 +13,18 @@
 <body>
 <div class="container">
 <div class="main">
-<h2>Javascript Login Form Validation</h2>
+<h3>Login Form Validation</h2>
 <form id="form_id" method="post" name="myform">
-<label>User Name :</label>
+<label>Username:</label>
 <input type="text" name="username" id="username"/>
-<label>Password :</label>
+<label>Password:</label>
 <input type="password" name="password" id="password"/>
 <input type="button" value="Login" id="submit" onclick="validate()"/>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
+        <input type="checkbox" checked="checked" name="remember">
+        <span><b class="remember"> Remember me</b></span>
 </form>
 <!--We need cookie application in order to have a proper 'remember me' function--> 
-<span><b class="note">Note : </b>For this demo use following username and password. <br/><b class="valid">User Name : abc<br/>Password : 123</b></span>
+<span><b class="note">Note: For this demo please use the following username and password.</b> <br/> <br/><b class="valid">Username: abc<br/>Password: 123</b></span>
 </div>
 </div>
 </body>
