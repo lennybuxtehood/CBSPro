@@ -2,6 +2,7 @@
 
 h2, p {
     color: white; 
+    
 }
 
 
@@ -12,6 +13,7 @@ h2, p {
     font-size: 16px;
     border: none;
     cursor: pointer;
+    
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -79,6 +81,10 @@ body{
     position:absolute;
     top:0px; bottom:0px; right:0; left:430px;
 }
+
+/* Turns "CBS Student Organisations - Overview For those who love extracurricular activities" 
+    white, font size, plus font family */
+
 .title1{
     display: block;
     text-align: center;
