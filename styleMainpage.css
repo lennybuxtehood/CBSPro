@@ -36,7 +36,10 @@ body{
     font-size:14pt;
     font-family:serif;
 }
-
+.h2, p{
+color:white;
+font-family:serif;
+}
 .home{
     margin: 50px auto;
     display:block;
