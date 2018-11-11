@@ -2,9 +2,7 @@
 
 h2, p {
     color: white; 
-    
 }
-
 
 .dropbtn {
     background-color: #4CAF50;
@@ -13,7 +11,7 @@ h2, p {
     font-size: 16px;
     border: none;
     cursor: pointer;
-    
+    float: left;
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -92,6 +90,7 @@ body{
     font-size:40pt;
     font-family:big john;
 }
+
 .title2{
     display:block;
     margin-top:15px;
@@ -112,18 +111,16 @@ body{
     font-family:sans-serif;
     font-weight: bold;
     border-radius: 5px;
-    
     transition: background-color 1000ms, color 1000ms;
-
     margin:middle;
     position:absolute;
     top:200px; bottom:0px; right:100; left:0px;
 }
+
 .home:hover{
     background-color:rgba(255,255,255,1);
     color:#222;
     cursor:pointer;
-    
     transition: background-color 1000ms, color 1000ms;
 }
 
@@ -138,18 +135,16 @@ body{
     font-family:sans-serif;
     font-weight: bold;
     border-radius: 5px;
-    
     transition: background-color 1000ms, color 1000ms;
-
     margin:middle;
     position:absolute;
     top:200px; bottom:0px; right:000; left:0px;
 }
+
 .overview:hover{
     background-color:rgba(255,255,255,1);
     color:#222;
     cursor:pointer;
-    
     transition: background-color 1000ms, color 1000ms;
 }
 
@@ -164,13 +159,12 @@ body{
     font-family:sans-serif;
     font-weight: bold;
     border-radius: 5px;
-    
     transition: background-color 1000ms, color 1000ms;
-
     margin:middle;
     position:absolute;
     top:200px; bottom:0px; right:0; left:420px;
 }
+
 .calendar:hover{
     background-color:rgba(255,255,255,1);
     color:#222;
@@ -178,3 +172,33 @@ body{
     
     transition: background-color 1000ms, color 1000ms;
 }
+
+/* adjusting gap between heading and images */
+.features {
+    padding: 350px 150px 10px 20px;
+    display: table;
+    display: flex; 
+    }
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.column {
+    padding: 5px;
+    /* display:? */ 
+}
+
+.column img {
+    width: 100%; 
+    margin-top: 8px;
+    vertical-align: middle;
+    max-height: 200px; 
+    max-width: 90%;
+    display: grid; 
+    object-fit: fill;
+    
+}
+
+
