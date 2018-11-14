@@ -196,8 +196,7 @@ body{
     vertical-align: middle;
     max-height: 200px; 
     max-width: 90%;
-    display: grid; 
-    object-fit: fill;
+   object-fit: fill;
     
 }
 
