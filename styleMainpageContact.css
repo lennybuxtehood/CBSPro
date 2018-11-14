@@ -1,3 +1,6 @@
+/* Below line is used for online Google font */
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
 *{
     margin:0;
     padding:0;
@@ -26,7 +29,7 @@ body{
     text-align: center;
     color:white;
     font-size:40pt;
-    font-family:big john;
+    font-family:raleway;
 }
 .title2{
     display:block;
@@ -34,7 +37,7 @@ body{
     text-align: center;
     color:white;
     font-size:14pt;
-    font-family:serif;
+    font-family:raleway;
 }
 
 .home{
@@ -45,7 +48,7 @@ body{
     border:3px solid white;
     background-color:rgba(255,255,255,0);
     color:white;
-    font-family:sans-serif;
+    font-family:raleway;
     font-weight: bold;
     border-radius: 5px;
     
@@ -59,7 +62,7 @@ body{
     background-color:rgba(255,255,255,1);
     color:#222;
     cursor:pointer;
-    
+
     transition: background-color 1000ms, color 1000ms;
 }
 
@@ -71,7 +74,7 @@ body{
     border:3px solid white;
     background-color:rgba(255,255,255,0);
     color:white;
-    font-family:sans-serif;
+    font-family:raleway;
     font-weight: bold;
     border-radius: 5px;
     
@@ -89,7 +92,7 @@ body{
     transition: background-color 1000ms, color 1000ms;
 }
 
-.calendar{
+.contact{
     margin: 50px auto;
     display:block;
     width:180px;
@@ -97,7 +100,7 @@ body{
     border:3px solid white;
     background-color:rgba(255,255,255,0);
     color:white;
-    font-family:sans-serif;
+    font-family:raleway;
     font-weight: bold;
     border-radius: 5px;
     
@@ -107,10 +110,60 @@ body{
     position:absolute;
     top:200px; bottom:0px; right:0; left:420px;
 }
-.calendar:hover{
+.contact:hover{
     background-color:rgba(255,255,255,1);
     color:#222;
     cursor:pointer;
     
     transition: background-color 1000ms, color 1000ms;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #f2f2f2; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+div.container {
+    margin: middle;
+    position: absolute;
+    top: 400px; bottom: 50px; left: 330px; right: 0px;
+    width: 60%;
+    height: 500px;
+    font-family: raleway;
+    background: #0c0129;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    font-size: 14px;
+    font-family: raleway;
+    font-weight: bold;
+    background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+    color: #0c0129;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+label{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: raleway;
+}
+
+input[type=submit]:hover {
+    background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
