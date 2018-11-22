@@ -1,8 +1,11 @@
+/* Below line is used for online Google font */
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
 /* Dropdown Menu CSS:  */
 
 h2, p {
     color: white; 
-    font-family:sans-serif; 
+    font-family:raleway; 
 }
 
 .dropbtn {
@@ -89,7 +92,7 @@ body{
     text-align: center;
     color:white;
     font-size:40pt;
-    font-family:sans-serif;
+    font-family:raleway;
 }
 
 .title2{
@@ -98,7 +101,7 @@ body{
     text-align: center;
     color:white;
     font-size:14pt;
-    font-family:sans-serif;
+    font-family:raleway;
 }
 
 .home{
@@ -194,12 +197,12 @@ body{
 
 .col-md-4 img {
     width: 350px;
-    height: 350px;; 
+    height: 260px;; 
     margin-top: 8px;
-    vertical-align: middle;
+    vertical-align: center;
     object-fit: cover;
-    border-radius: 5px;
-    margin-bottom: 80px;
+    border-radius: 10px;
+    margin-bottom: 100px;
     margin-left: 20px;
     margin-right: 20px;
 }
