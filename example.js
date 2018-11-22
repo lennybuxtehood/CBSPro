@@ -10,8 +10,12 @@ return false;
 }
 else{
 attempt --;// Decrementing by one.
+if( attempt == 1)
+alert("You have 1 attempt left;");
+else{
 alert("You have "+attempt+" attempt(s) left;");
 // Disabling fields after 3 attempts.
+}
 if( attempt == 0){
 document.getElementById("username").disabled = true;
 document.getElementById("password").disabled = true;
