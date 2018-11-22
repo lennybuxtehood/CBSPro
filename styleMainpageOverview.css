@@ -2,6 +2,7 @@
 
 h2, p {
     color: white; 
+    font-family:sans-serif; 
 }
 
 .dropbtn {
@@ -78,7 +79,7 @@ body{
     margin:top;
     position:absolute;
     top:0px; bottom:0px; right:0; left:430px;
-}
+    }
 
 /* Turns "CBS Student Organisations - Overview For those who love extracurricular activities" 
     white, font size, plus font family */
@@ -88,7 +89,7 @@ body{
     text-align: center;
     color:white;
     font-size:40pt;
-    font-family:big john;
+    font-family:sans-serif;
 }
 
 .title2{
@@ -97,7 +98,7 @@ body{
     text-align: center;
     color:white;
     font-size:14pt;
-    font-family:serif;
+    font-family:sans-serif;
 }
 
 .home{
@@ -174,29 +175,31 @@ body{
 }
 
 /* adjusting gap between heading and images */
-.features {
-    padding: 350px 150px 10px 20px;
+.container {
+    padding: 400px 150px 10px 20px;
     display: table;
     display: flex; 
-    }
+}
 
 .row {
     width: 100%;
     display: flex;
-}
+  }
 
-.column {
+.col-md-4 {
     padding: 5px;
-    /* display:? */ 
+    text-align: center;
+    font-family:sans-serif;
 }
 
-.column img {
-    width: 100%; 
+.col-md-4 img {
+    width: 350px;
+    height: 350px;; 
     margin-top: 8px;
     vertical-align: middle;
-    max-height: 200px; 
-    max-width: 90%;
-    display: grid; 
-    object-fit: fill;
-    
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
