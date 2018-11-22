@@ -13,7 +13,7 @@ attempt --;// Decrementing by one.
 if( attempt == 1)
 alert("You have 1 attempt left;");
 else{
-alert("You have "+attempt+" attempt(s) left;");
+alert("You have "+attempt+" attempts left;");
 // Disabling fields after 3 attempts.
 }
 if( attempt == 0){
