@@ -1,7 +1,11 @@
+/* Below line is used for online Google font */
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
 /* Dropdown Menu CSS:  */
 
 h2, p {
     color: white; 
+    font-family:raleway; 
 }
 
 .dropbtn {
@@ -78,7 +82,7 @@ body{
     margin:top;
     position:absolute;
     top:0px; bottom:0px; right:0; left:430px;
-}
+    }
 
 /* Turns "CBS Student Organisations - Overview For those who love extracurricular activities" 
     white, font size, plus font family */
@@ -88,7 +92,7 @@ body{
     text-align: center;
     color:white;
     font-size:40pt;
-    font-family:big john;
+    font-family:raleway;
 }
 
 .title2{
@@ -97,7 +101,7 @@ body{
     text-align: center;
     color:white;
     font-size:14pt;
-    font-family:serif;
+    font-family:raleway;
 }
 
 .home{
@@ -174,29 +178,31 @@ body{
 }
 
 /* adjusting gap between heading and images */
-.features {
-    padding: 350px 150px 10px 20px;
+.container {
+    padding: 400px 150px 10px 20px;
     display: table;
     display: flex; 
-    }
+}
 
 .row {
     width: 100%;
     display: flex;
-}
+  }
 
-.column {
+.col-md-4 {
     padding: 5px;
-    /* display:? */ 
+    text-align: center;
+    font-family:sans-serif;
 }
 
-.column img {
-    width: 100%; 
+.col-md-4 img {
+    width: 350px;
+    height: 260px;; 
     margin-top: 8px;
-    vertical-align: middle;
-    max-height: 200px; 
-    max-width: 90%;
-    display: grid; 
-    object-fit: fill;
-    
+    vertical-align: center;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
