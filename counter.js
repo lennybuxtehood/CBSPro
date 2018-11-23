@@ -10,7 +10,7 @@ document.getElementById("members").innerHTML = "These people are already registe
 
 function register() {
 
-    if (memberArr.length < 5) {
+    if (memberArr.length < 10) {
         var newMember = document.getElementById("name").value;
 
         memberArr.push(newMember);
