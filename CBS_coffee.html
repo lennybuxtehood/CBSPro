@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <img src="https://static1.squarespace.com/static/5ac621c3a9e0286371486130/5b6812481ae6cf3410342838/5aef2b56f950b76debf57c47/1539004549132/Logo+website.png?format=750w" alt="">
+
+
+    <div class="heading">
+           
+            <button class="home" onclick="window.location.href='MainPage.html';"> Home </button>
+
+            <button class="overview" 
+              onclick="window.location.href='MainPageOverview.html';">
+                Overview Organisations
+            </button>
+           
+            <button class="contact" 
+            onclick="window.location.href='MainPageContact.html';">
+                Contact
+            </button>
+        </div>
+
+    <h1>Welcome to CBS Coffee</h1>
+
+    
+<!-- CSS written directly in the HMTL file for now -->
+    <style>
+   head, body {
+        color: white;
+        background-color:#0c0129;
+        background-image:url(images/coding.jpg);
+        background-position:center;
+        background-size:cover;
+        background-blend-mode:soft-light;}
+
+    img{
+        width: 200px;
+        height: 200px;
+        margin-right: 2%;
+        float: right;
+        object-fit: cover;
+        border-radius: 10px;
+  
+    }
+
+
+    
+    </style>
+    
+</head>
+
+<body>
+
+    <!-- EXAMPLE OF TEXT, STOLEN FROM CBS' REAL PAGE -->
+
+<p>**Example of text. Stolen from CBS' own site. (CSS written directly in the html file)**</p>
+<h3>Who We Are</h3>
+<p>
+        We are coffee lovers who want more than the caffeine boost. We want to enjoy the best coffee experience.
+        We get inspired by coffee and we want you to feel the same. Our events will arouse your senses and provide you with the knowledge and expertise that will make you a real coffee expert.
+</p>
+ 
+
+<h3>What We Do</h3>
+
+<p>
+        Simple as COFFEE:
+
+        C-onnect and hygge around this special drink
+        O-ffer courses and workshops to make you a coffee expert
+        F-ind and share the best cafés in Copenhagen
+        F-acilitate the spread of coffee culture
+        E-mpower the students who aim to work in the coffee industry
+        E-nhance your coffee experience
+</p>
+
+<h3>Get involved</h3>
+
+<p>
+        Are you a coffee lover, eager to have an impact and get in contact with coffee industry professionals? Then contact us on FB and ask to become a member!
+        Otherwise, just LIKE US to discover great cafés, get regular updates about our pleasing events and access to special offers with our partners.
+</p>
+
+<i> - For any further questions we invite you to use our contact form </i> 
+
+</body>
+<br>
+<body>
+        <div class="container">
+            <div class="main">
+        <h4>Upcoming Events</h4>
+    </body>
+    
+    <body>
+        <span>The heritage of coffee - presented to you by Starbucks - on 12th of January 2019 at 10:00 - This event has a maximum capacity of 10 people</span> 
+        <span>I want to sign up</span>
+        <form id="registration" onsubmit="return register()">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="submit" id="enter"><br>
+    <br>
+        </form>
+        <span> Number of spots already taken:</span>
+        <p id="counter"></p>
+        <p id="members"></p>
+        
+        <script src="counter.js"></script>
+    </body>
+</html>
