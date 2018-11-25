@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <img src="https://static1.squarespace.com/static/5ac621c3a9e0286371486130/5acb702b352f53a44f0cd88e/5af014382b6a281d80db72b6/1525684201288/23_logo.png?format=750w" alt="">
+
+
+    <div class="heading">
+           
+            <button class="home" onclick="window.location.href='MainPage.html';"> Home </button>
+
+            <button class="overview" 
+              onclick="window.location.href='MainPageOverview.html';">
+                Overview Organisations
+            </button>
+           
+            <button class="contact" 
+            onclick="window.location.href='MainPageContact.html';">
+                Contact
+            </button>
+        </div>
+
+    <h1>Welcome to CBS Improv</h1>
+
+    
+<!-- CSS written directly in the HMTL file for now -->
+    <style>
+   head, body {
+        color: white;
+        background-color:#0c0129;
+        background-image:url(images/coding.jpg);
+        background-position:center;
+        background-size:cover;
+        background-blend-mode:soft-light;}
+
+    img{
+        width: 200px;
+        height: 200px;
+        margin-right: 2%;
+        float: right;
+        object-fit: cover;
+        border-radius: 10px;
+  
+    }
+
+
+    
+    </style>
+    
+</head>
+
+<body>
+
+    <!-- EXAMPLE OF TEXT, STOLEN FROM CBS' REAL PAGE -->
+
+<p>**Example of text. Stolen from CBS' own site. (CSS written directly in the html file)**</p>
+<h3>Who We Are</h3>
+<p> We like to think of ourselves as an open, inclusive community, where letting go of control is our core value. We foster and encourage awkward and spontaneous moments in a creative and liberating environment. We aim for everyone to leave our workshops feeling uplifted, energised, and special. 
+</p>
+ 
+
+<h3>What We Do</h3>
+
+<p>We meet once a week on Thursdays at 17:30 n the Dalgas Have Building on the CBS Campus. We will meet in the CBS Move studio in the basement. We usually have an intro level workshop until 19:00 and then a more advanced one until 20:30 - but people of all backgrounds and experiences are welcome! 
+</p>
+
+<h3>What is Improv</h3>
+
+<p>Improv is a form of theatre in which all elements of a scene or story are made up in the moment. In our workshops, we coach people to get out of their comfort zone, stay in the moment, listen and react genuinely, and most importantly, re-learn to say "yes".
+ </p>
+
+<i> - For any further questions we invite you to use our contact form </i> 
+
+</body>
+<br>
+<body>
+        <div class="container">
+            <div class="main">
+        <h4>Upcoming Events</h4>
+    </body>
+    
+    <body>
+        <span>Say YES workshop - hosted by infamous Major Tom - on 6th of January 2019 at 20:00 - This event has a maximum capacity of 10 people</span> 
+        <span>I want to sign up</span>
+        <form id="registration" onsubmit="return register()">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="submit" id="enter"><br>
+    <br>
+        </form>
+        <span> Number of spots already taken:</span>
+        <p id="counter"></p>
+        <p id="members"></p>
+        
+        <script src="counter.js"></script>
+    </body>
+</html>
