@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CBS Volunteering</title>
+    <img src="https://static1.squarespace.com/static/5ac621c3a9e0286371486130/5b681271758d46d34296df03/5bd85430085229bf42a12477/1540904422127/unnamed-4.png?format=500w
+    " alt="">
+
+    <div class="heading">
+           
+            <button class="home" onclick="window.location.href='MainPage.html';"> Home </button>
+
+            <button class="overview" 
+              onclick="window.location.href='MainPageOverview.html';">
+                Overview Organisations
+            </button>
+           
+            <button class="contact" 
+            onclick="window.location.href='MainPageContact.html';">
+                Contact
+            </button>
+        </div>
+
+    <h1>Welcome to CBS Volunteering</h1>
+
+    
+<!-- CSS written directly in the HMTL file for now -->
+    <style>
+   head, body {
+        color: white;
+        background-color:#0c0129;
+        background-image:url(images/coding.jpg);
+        background-position:center;
+        background-size:cover;
+        background-blend-mode:soft-light;}
+
+    img{
+        width: 400px;
+        height: 400px;
+        margin-right: 2%;
+        margin-top: 2%;
+        float: right;
+        object-fit: cover;
+        border-radius: 10px;
+  
+    }
+
+
+    
+    </style>
+    
+</head>
+
+<body>
+
+    <!-- EXAMPLE OF TEXT, STOLEN FROM CBS' REAL PAGE -->
+
+<p>**Example of text. Stolen from CBS' own site. (CSS written directly in the html file)**</p>
+<h3>Who We Are</h3>
+<p>
+        We are a group of CBS Students that actively promote local volunteering for good causes and want to make it as easy<br> 
+        as possible for CBS students to find and join volunteer work opportunities in their local communities.
+</p>
+ 
+
+<h3>What We Do</h3>
+
+<p>
+        We organize volunteering opportunities for CBS students and cooperate with many different local NGOs and non-profits.<br>
+        We also organize public events with non-profit organizations to broaden CBS students’ sense for community and actively support the non-profit organizations we cooperate with.
+</p>
+
+<h3>Get involved</h3>
+
+<p>
+        Are you interested in doing volunteer work for good causes? Sign up below!
+</p>
+
+<i> - For any further questions we invite you to use our contact form </i> 
+
+</body>
+<br>
+<body>
+        <div class="container">
+            <div class="main">
+        <h4>Upcoming Events</h4>
+    </body>
+    
+    <body>
+        <span>How do I get involved in volunteer work? - A mix and match workshop presented by The Red Cross - on 14th of January 2019 at 14:00 - This event has a maximum capacity of 10 people</span> 
+        <span>I want to sign up</span>
+        <form id="registration" onsubmit="return register()">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="submit" id="enter"><br>
+    <br>
+        </form>
+        <span> Number of spots already taken:</span>
+        <p id="counter"></p>
+        <p id="members"></p>
+        
+        <script src="counter.js"></script>
+    </body>
+</html>

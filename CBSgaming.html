@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CBS Gaming</title>
+    <img src="https://static1.squarespace.com/static/5ac621c3a9e0286371486130/5acb702b352f53a44f0cd88e/5b6874d388251b1016cb5840/1533582562053/22_logo.png?format=500w" alt="">
+
+
+    <div class="heading">
+           
+            <button class="home" onclick="window.location.href='MainPage.html';"> Home </button>
+
+            <button class="overview" 
+              onclick="window.location.href='MainPageOverview.html';">
+                Overview Organisations
+            </button>
+           
+            <button class="contact" 
+            onclick="window.location.href='MainPageContact.html';">
+                Contact
+            </button>
+        </div>
+
+    <h1>Welcome to CBS Gaming</h1>
+
+    
+<!-- CSS written directly in the HMTL file for now -->
+    <style>
+   head, body {
+        color: white;
+        background-color:#0c0129;
+        background-image:url(images/coding.jpg);
+        background-position:center;
+        background-size:cover;
+        background-blend-mode:soft-light;}
+
+    img{
+        width: 400px;
+        height: 400px;
+        margin-right: 2%;
+        margin-top: 2%;
+        float: right;
+        object-fit: cover;
+        border-radius: 10px;
+  
+    }
+
+
+    
+    </style>
+    
+</head>
+
+<body>
+
+    <!-- EXAMPLE OF TEXT, STOLEN FROM CBS' REAL PAGE -->
+
+<p>**Example of text. Stolen from CBS' own site. (CSS written directly in the html file)**</p>
+<h3>Who We Are</h3>
+<p>
+        CBS Gaming is composed of a handful of students like yourself working to bring videogames in different shapes and forms to CBS.<br>
+        We want to see students embrace gaming as a serious industry as well as a playful entertainment platform.<br>
+        The organization was founded in September 2015 with the same goal.
+</p>
+ 
+
+<h3>What We Do</h3>
+
+<p>
+        To reach our goal, we organize tournaments with popular games such as FIFA with the casuals and have a beer.<br>
+        We do LAN-parties and tournaments for the gamers who play the newest games.<br>
+        For business and networking we visit companies or do product testing of unreleased gaming peripherals!
+</p>
+
+<h3>Get involved</h3>
+
+<p>
+Check out our events and make sure to sign up for them below. 
+<i> - For any further questions we invite you to use our contact form </i> 
+
+</body>
+<br>
+<body>
+        <div class="container">
+            <div class="main">
+        <h4>Upcoming Events</h4>
+    </body>
+    
+    <body>
+        <span>Lan party - presented to you by CPH Gamer Group (CGG) - on 22th of January 2019 at 20:00 - This event has a maximum capacity of 10 people</span> 
+        <span>I want to sign up</span>
+        <form id="registration" onsubmit="return register()">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="submit" id="enter"><br>
+    <br>
+        </form>
+        <span> Number of spots already taken:</span>
+        <p id="counter"></p>
+        <p id="members"></p>
+        
+        <script src="counter.js"></script>
+    </body>
+</html>
