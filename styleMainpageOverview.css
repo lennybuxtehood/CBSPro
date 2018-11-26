@@ -179,7 +179,7 @@ body{
 
 /* adjusting gap between heading and images */
 .container {
-    padding: 400px 150px 10px 20px;
+    padding: 400px 110px 110px 110px;
     display: table;
     display: flex; 
 }
