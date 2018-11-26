@@ -28,6 +28,16 @@
     
 <!-- CSS written directly in the HMTL file for now -->
     <style>
+img{
+        width: 400px;
+        height: 400px;
+        margin-right: 2%;
+        margin-top: 2%;
+        float: right;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
    head, body {
         color: white;
         background-color:#0c0129;
@@ -36,19 +46,10 @@
         background-size:cover;
         background-blend-mode:soft-light;}
 
-    img{
-        width: 400px;
-        height: 400px;
-        margin-right: 2%;
-        margin-top: 2%;
-        float: right;
-        object-fit: cover;
-        border-radius: 10px;
-  
-    }
-
-
-    
+    body {
+        margin-left: 3%;
+        margin-top: 3%;
+   
     </style>
     
 </head>
@@ -69,7 +70,7 @@
 <h3>What We Do</h3>
 
 <p>
-        To reach our goal, we organize tournaments with popular games such as FIFA with the casuals and have a beer.<br>
+        To reach our goal, we organize tournaments with popular games such as FIFA and Counter Strike.<br>
         We do LAN-parties and tournaments for the gamers who play the newest games.<br>
         For business and networking we visit companies or do product testing of unreleased gaming peripherals!
 </p>
@@ -89,7 +90,7 @@ Check out our events and make sure to sign up for them below.
     </body>
     
     <body>
-        <span>Lan party - presented to you by CPH Gamer Group (CGG) - on 22th of January 2019 at 20:00 - This event has a maximum capacity of 10 people</span> 
+        <span>Lan party - presented to you in association with CPH Gamer Group (CGG) - on 22th of January 2019 at 20:00 - This event has a maximum capacity of 10 people</span> 
         <span>I want to sign up</span>
         <form id="registration" onsubmit="return register()">
             <input type="text" id="name" placeholder="Name" required>
