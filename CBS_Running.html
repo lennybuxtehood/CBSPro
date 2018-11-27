@@ -28,25 +28,30 @@
     
 <!-- CSS written directly in the HMTL file for now -->
     <style>
+   
+img{
+        width: 400px;
+        height: 400px;
+        margin-right: 4%;
+        margin-top: 2%;
+        float: right;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
    head, body {
         color: white;
         background-color:#0c0129;
         background-image:url(images/coding.jpg);
         background-position:center;
         background-size:cover;
-        background-blend-mode:soft-light;}
+        background-blend-mode:soft-light;
+        }
 
-    img{
-        width: 200px;
-        height: 200px;
-        margin-right: 2%;
-        float: right;
-        object-fit: cover;
-        border-radius: 10px;
-  
-    }
-
-
+     body {
+        margin-left: 3%;
+        margin-top: 3%;
+        }
     
     </style>
     
@@ -56,17 +61,18 @@
 
     <!-- EXAMPLE OF TEXT, STOLEN FROM CBS' REAL PAGE -->
 
-<p>**Example of text. Stolen from CBS' own site. (CSS written directly in the html file)**</p>
 <h3>Who We Are</h3>
 <p>
-        CBS Running is a social student organization that gathers people from all fields of study, nationalities and runners on every level. We combine serious training with social events; we simply strive to enhance the running culture at CBS through networking. Always on the run!
+        CBS Running is a social student organization that gathers people from all fields of study, nationalities and runners on every level.<br> 
+        We combine serious training with social events; we simply strive to enhance the running culture at CBS through networking. Always on the run!
 </p>
  
 
 <h3>What We Do</h3>
 
 <p>
-        Everyone is welcome to join our weekly training sessions no matter their level of experience. To join CBS Running, you do not need to be very experienced or a marathoner. Just show up in your running gear and move your feet!
+        Everyone is welcome to join our weekly training sessions no matter their level of experience.<br> 
+        To join CBS Running, you do not need to be very experienced or a marathoner. Just show up in your running gear and move your feet!
 </p>
 
 <h3>Get involved</h3>
@@ -86,7 +92,10 @@ It is free to join - anytime!
     </body>
     
     <body>
-        <span>The heritage of coffee - presented to you by Starbucks - on 12th of January 2019 at 10:00 - This event has a maximum capacity of 10 people</span> 
+        <span>The heritage of coffee - presented to you by Starbucks - on 12th of January 2019 at 10:00 <br>
+            - This event has a maximum capacity of 10 people</span> 
+            <br>
+            <br>
         <span>I want to sign up</span>
         <form id="registration" onsubmit="return register()">
             <input type="text" id="name" placeholder="Name" required>

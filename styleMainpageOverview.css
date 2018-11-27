@@ -16,6 +16,7 @@ h2, p {
     border: none;
     cursor: pointer;
     float: left;
+    margin-top: 30%;
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -79,7 +80,7 @@ body{
 .heading{
     width:600px;
     height:300px;
-    margin:top;
+    margin-top: 3%;
     position:absolute;
     top:0px; bottom:0px; right:0; left:430px;
     }
@@ -200,7 +201,7 @@ body{
     height: 260px;; 
     margin-top: 8px;
     vertical-align: center;
-    object-fit: cover;
+    object-fit: fill;
     border-radius: 10px;
     margin-bottom: 100px;
     margin-left: 20px;

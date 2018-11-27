@@ -28,50 +28,59 @@
     
 <!-- CSS written directly in the HMTL file for now -->
     <style>
+
+img{
+        width: 400px;
+        height: 400px;
+        margin-right: 4%;
+        margin-top: 2%;
+        float: right;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
    head, body {
         color: white;
         background-color:#0c0129;
         background-image:url(images/coding.jpg);
         background-position:center;
         background-size:cover;
-        background-blend-mode:soft-light;}
+        background-blend-mode:soft-light;
+        }
 
-    img{
-        width: 200px;
-        height: 200px;
-        margin-right: 2%;
-        float: right;
-        object-fit: cover;
-        border-radius: 10px;
-  
+     body {
+        margin-left: 3%;
+        margin-top: 3%;
+        }
     }
 
-
-    
-    </style>
+ </style>
     
 </head>
 
 <body>
 
-    <!-- EXAMPLE OF TEXT, STOLEN FROM CBS' REAL PAGE -->
-
-<p>**Example of text. Stolen from CBS' own site. (CSS written directly in the html file)**</p>
 <h3>Who We Are</h3>
 <p>
-        CBS Culture is a society for students who are curious and enthusiastic about culture and the world of performing arts. We aim at creating a community who is keen on exploring the cultural scene of Copenhagen as a group and meeting like-minded passionate students from all over the city.</p>
+        CBS Culture is a society for students who are curious and enthusiastic about culture and the world of performing arts. <br>
+        We aim at creating a community who is keen on exploring the cultural scene of Copenhagen as a group and meeting like-minded <br>
+        passionate students from all over the city.</p>
  
 
 <h3>What We Do</h3>
 
 <p>
-        CBS Culture is a society for students who are curious and enthusiastic about culture and the world of performing arts. We aim at creating a community who is keen on exploring the cultural scene of Copenhagen as a group and meeting like-minded passionate students from all over the city.
+        CBS Culture is a society for students who are curious and enthusiastic about culture and the world of performing arts. <br>
+        We aim at creating a community who is keen on exploring the cultural scene of Copenhagen as a group and meeting like-minded <br>
+        passionate students from all over the city.
 </p>
 
 <h3>Get involved</h3>
 
 <p>
-        Whether you are already a connoisseur of the finer arts or considering going to your first ever concert, we have you covered! Have a look at our website and join us at one of our upcoming events. You can also follow our social media sites to stay up to date and connect with like-minded students.  </p>
+        Whether you are already a connoisseur of the finer arts or considering going to your first ever concert, we have you covered! <br>
+        Have a look at our website and join us at one of our upcoming events. You can also follow our social media sites to<br> 
+        stay up to date and connect with like-minded students.  </p>
 
 <i> - For any further questions we invite you to use our contact form </i> 
 
@@ -84,8 +93,11 @@
     </body>
     
     <body>
-        <span>The heritage of coffee - presented to you by Starbucks - on 12th of January 2019 at 10:00 - This event has a maximum capacity of 10 people</span> 
-        <span>I want to sign up</span>
+        <span>The heritage of coffee - presented to you by Starbucks - on 12th of January 2019 at 10:00<br>
+             - This event has a maximum capacity of 10 people.</span> 
+             <br>
+             <br>
+        <span>Want to sign up?</span>
         <form id="registration" onsubmit="return register()">
             <input type="text" id="name" placeholder="Name" required>
             <input type="submit" id="enter"><br>
