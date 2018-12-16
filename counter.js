@@ -7,10 +7,11 @@ var memberArr = JSON.parse(localStorage.getItem("Participants"));
 
 document.getElementById("counter").innerHTML = memberArr.length
 document.getElementById("members").innerHTML = "These people are already registered: " + memberArr.toString(", ")
+// alternative Schreibweise mit for in loop
+// for(i=0; i<memberArr.length; i++){
+//   document.getElementById("members").innerHTML += memberArr[i] + ", ";
+//}
 
-for(i=0; i<memberArr.length; i++){
-    document.getElementById("members").innerHTML += memberArr[i] + ", ";
-}
 
 function register() {
 
