@@ -1,0 +1,41 @@
+function searchForEvent(){
+    var allEvents = document.getElementsByClassName('events'); //extract all
+
+    //make sure everything is displayed
+    for(var i=0; i<allEvents.length; i++){
+        if(allEvents[i].getAttribute('style') === 'display:none')
+            allEvents[i].addAttribute('style','');
+    }
+
+    //extract the search input
+    var sesarchInput = document.getElementById('searchInputField').value; //sports
+
+    //hide all other elements excpet the one which fits the search parameter
+    for(var i=0; i<allEvents.length; i++){
+        if(allEvents[i].getAttribute('name').includes('sports') === false)
+            allEvents[i].addAttribute('style','display:none');
+    }
+}
+
+function filterForEvent{
+    var allEvents = document.getElementsByClassName('events'); //extract all
+
+    //make sure everything is displayed
+    for(var i=0; i<allEvents.length; i++){
+        if(allEvents[i].getAttribute('style') === 'display:none')
+            allEvents[i].addAttribute('style','');
+    }
+
+    //getting element
+    var filterDropDownElement = document.getElementById("filterDropDown");
+    
+    //getting array with all evailable options with .options
+    //getting the selected value with the selectedIndex
+    var selectedCategory = filterDropDownElement.options[filterDropDownElement.selectedIndex].value; //outdoor
+
+    //hide all other elements excpet the one which fits the category parameter
+    for(var i=0; i<allEvents.length; i++){
+        if(allEvents[i].classList.contains(selectedCategory) === false)
+            allEvents[i].addAttribute('style','display:none');
+    }
+}
